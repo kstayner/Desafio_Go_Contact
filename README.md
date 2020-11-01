@@ -28,7 +28,7 @@ mover o executável para a pasta C:\Windows
 
 ###Baixar o projeto no github:
 ```
-http:
+https://github.com/kstayner/Desafio_Go_Contact
 ```
 
 ###Na pasta do projeto instalar as dependências executando o comando:
