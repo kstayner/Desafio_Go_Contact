@@ -1,0 +1,8 @@
+---
+default: --format pretty -p html
+html: --format html --out=logs/features.html
+chrome: BROWSER=chrome
+chrome_headless: HEADLESS=chrome_headless
+prod_chrome: --format pretty -p html -p todos_cenarios -p chrome
+prod_headless: --format pretty -p html -p todos_cenarios -p chrome_headless
+todos_cenarios: -t @all
